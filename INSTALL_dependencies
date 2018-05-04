@@ -1,7 +1,7 @@
 #!/bin/bash
 # author: Qining Zhang
 # date: 2018-04-19
-# TEST ON Ubuntu 16.04.4 LTS
+# TEST ON Ubuntu 16.04.4 LTS & Ubuntu 14.04.5 LTS
 
 if [[ $EUID -ne 0 ]]; then
     echo "You MUST be a root user or run with sudo" 2>&1
